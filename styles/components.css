@@ -1,29 +1,11 @@
-.container {
-    width: 100%;
-    padding: 30px 50px;
-}
-
-.container .head {
-    opacity: 1;
-    top: 0;
-    left: 0;
-    text-align: left;
-    width: 50%;
-    animation: 1s linear slide;
-    transition: 1s all;
-}
-
-.container .head h1 {
+.title{
     text-align: center;
     font-size: 2rem;
-    margin-top: 100px;
-
 }
 
-.container .head p {
+.paragraph{
     text-align: center;
     font-size: 1.3rem;
-    margin: 30px 0 30px;
 }
 
 .btn {
@@ -48,5 +30,10 @@
     color: grey;
     background-color: white;
     transform: scale(1.1);
+}
+
+.my-30{
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
