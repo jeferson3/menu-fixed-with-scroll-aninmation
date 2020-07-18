@@ -10,6 +10,7 @@
 		rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<link rel="stylesheet" type="text/css" href="styles/components.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 </head>
 
 <body>
@@ -25,12 +26,16 @@
 				<li>Contacts</li>
 			</ul>
 		</nav>
+		<a class="buttonToggle" onclick="toggle()">
+			<i class="fa fa-bars fa-3x text-white" aria-hidden="true"></i>
+		</a>
 	</header>
 	<main class="welcome">
 		<div class="head">
 			<h1 class="title">Instituto</h1>
 			<p class="paragraph my-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua.</p>
+				tempor incididunt ut labore et dolore magna aliqua.
+			</p>
 		</div>
 		<button class="btn btn-default-outline">Saiba mais</button>
 	</main>
@@ -67,6 +72,10 @@
 
 			}
 		})
+
+		function toggle() {
+			alert('toggle');
+		}
 	</script>
 </body>
 
