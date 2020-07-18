@@ -67,48 +67,14 @@ nav ul li:hover {
 	border-bottom: 2px solid white;
 }
 
-/* responsive menu */
-/* tablet */
-@media(max-width: 768px){
-	header{
-		display: flex;
-		flex-direction: column;
-	}
-	nav ul {
-		margin-top: 20px;;
-	}
-}
-
-/* mobile */
-
-@media(max-width: 425px){
-
-	header{
-
-	}
-
-	nav ul{
-		display: none;
-	}
+.buttonToggle{
+	cursor: pointer;
+	display: none;
+	position: absolute;
+	top: 10px;
+	right: 5px;
 	
-	.head{
-		width: 100%;
-		padding: 10px;
-	}
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
 
 /*banner welcome*/
 
@@ -127,3 +93,25 @@ nav ul li:hover {
 .welcome .head{
 	width: 50%;
 }
+	/* responsive menu */
+	/* tablet */
+	@media(max-width: 768px){
+		header{
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			padding: 10px;
+		}
+		nav ul {
+			margin-top: 20px;
+			display: none;
+		}
+		.welcome .head{
+			width: 100%;
+			padding: 10px;
+		}
+		.buttonToggle{
+			display: flex;
+		}
+	}
+	
