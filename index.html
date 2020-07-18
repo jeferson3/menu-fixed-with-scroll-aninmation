@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Menu Fixed</title>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" type="text/css" href="styles/components.css">
+</head>
+
+<body>
+	<header id="menu">
+		<div class="logo">
+			<img src="img/logo.png" alt="instituto golfinho">
+			<h2>Instituto Golginho Azul</h2>
+		</div>
+		<nav>
+			<ul>
+				<li>Home</li>
+				<li>Projects</li>
+				<li>Contacts</li>
+			</ul>
+		</nav>
+	</header>
+	<section class="welcome container">
+		<div class="head">
+			<h1>Instituto</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+		</div>
+		<button class="btn btn-default">Saiba mais</button>
+	</section>
+	<main>
+		<h1>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim autem dolores accusantium recusandae quis
+			quasi veritatis delectus voluptas expedita odio neque, culpa magnam blanditiis nulla temporibus, earum iusto
+			similique iste!
+		</h1>
+		<h1>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim autem dolores accusantium recusandae quis
+			quasi veritatis delectus voluptas expedita odio neque, culpa magnam blanditiis nulla temporibus, earum iusto
+			similique iste!
+		</h1>
+		<h1>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim autem dolores accusantium recusandae quis
+			quasi veritatis delectus voluptas expedita odio neque, culpa magnam blanditiis nulla temporibus, earum iusto
+			similique iste!
+		</h1>
+		<h1>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim autem dolores accusantium recusandae quis
+			quasi veritatis delectus voluptas expedita odio neque, culpa magnam blanditiis nulla temporibus, earum iusto
+			similique iste!
+		</h1>
+	</main>
+	<script type="text/javascript">
+		addEventListener('scroll', function () {
+			if (scrollY >= 10) {
+				document.getElementById('menu').style.backgroundColor = 'rgba(71, 158, 121, 1)';
+
+			} else {
+				document.getElementById('menu').style.backgroundColor = 'rgba(71, 158, 121, 0.2)';
+
+			}
+		})
+	</script>
+</body>
+
+</html>
