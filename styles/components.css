@@ -27,11 +27,9 @@
 }
 
 .btn {
-    padding: 15px 20px;
+    padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: white;
-    color: black;
     font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -39,21 +37,16 @@
     transition: 0.4s all;
 }
 
-.btn-default {
-    background-color: white;
-    color: black;
-}
-
-.btn-default:hover {
-    opacity: 0.5;
-}
-
-.btn-primary {
-    background-color: navy;
+.btn-default-outline{
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px solid white;
     color: white;
 }
 
-.btn-primary:hover {
-    color: navy;
+.btn-default-outline:hover  {
+    border: 2px solid transparent;
+    color: grey;
     background-color: white;
+    transform: scale(1.1);
 }
+
