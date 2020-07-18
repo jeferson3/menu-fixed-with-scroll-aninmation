@@ -8,6 +8,13 @@
     font-size: 1.3rem;
 }
 
+.text-white{
+    color: white;
+}
+.text-grey{
+    color: grey;
+}
+
 .btn {
     padding: 10px 20px;
     border: none;
