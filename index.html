@@ -20,13 +20,13 @@
 			<h2>Instituto Golginho Azul</h2>
 		</div>
 		<nav>
-			<ul>
+			<ul id="menu">
 				<li>Home</li>
 				<li>Projects</li>
 				<li>Contacts</li>
 			</ul>
 		</nav>
-		<a class="buttonToggle" onclick="toggle()">
+		<a class="buttonToggle" onclick="toggle()"  onfocusout="fOut()">
 			<i class="fa fa-bars fa-3x text-white" aria-hidden="true"></i>
 		</a>
 	</header>
@@ -73,8 +73,26 @@
 			}
 		})
 
+
+		addEventListener('resize', function () {
+			if (window.innerWidth >= 768) {
+				document.querySelector('ul#menu').style.right = '-200px';
+			}
+		})
+		
+		
+		function fOut() {
+			alert();
+		}
+
 		function toggle() {
-			alert('toggle');
+			let menu = document.querySelector('ul#menu');
+
+			if (menu.style.right == '-200px' || menu.style.right == 0) {
+				menu.style.right = '0';
+			} else {
+				menu.style.right = '-200px';
+			}
 		}
 	</script>
 </body>
