@@ -68,6 +68,7 @@ nav ul li:hover {
 }
 
 /* responsive menu */
+/* tablet */
 @media(max-width: 768px){
 	header{
 		display: flex;
@@ -78,7 +79,35 @@ nav ul li:hover {
 	}
 }
 
+/* mobile */
 
+@media(max-width: 425px){
+
+	header{
+
+	}
+
+	nav ul{
+		display: none;
+	}
+	
+	.head{
+		width: 100%;
+		padding: 10px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 /*banner welcome*/
@@ -92,4 +121,9 @@ nav ul li:hover {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
+}
+
+.welcome .head{
+	width: 50%;
 }
