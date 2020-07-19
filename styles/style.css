@@ -105,13 +105,14 @@ nav ul li:hover {
 		nav ul {
 			width: 200px;
 			height: 100vh;
-			padding: 20px;
+			padding: 80px 10px;
 			background: rgba(71, 158, 121, 1);
 			position: absolute;
 			top: 0;
 			right: -200px;
 			display: flex;
 			flex-direction: column;
+			text-align: left;
 
 		}
 		.welcome .head{
